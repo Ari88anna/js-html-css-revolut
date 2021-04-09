@@ -23,8 +23,11 @@ ul {
     list-style-type: none;
 }
 
+
+
 /* container */
 .container {
+    width: 90%;
     max-width: 1000px;
     margin: auto;    
 }
@@ -33,10 +36,11 @@ ul {
 /* nav container */
 .nav-container {
     padding: 30px 0;
-    display: flex;
+    display: flex;    
 }
 /* logo container */
 .logo-container {
+    line-height: 30px;
     width: 10%;
 }
 
@@ -95,4 +99,27 @@ nav {
 .dropdown-menu li {
     display: block;
     padding: 10px 20px;
+}
+
+.burger-menu {
+    text-align: right;
+}
+
+.burger-menu i {
+    font-size: 40px;
+}
+
+
+
+@media all and (max-width: 992px) {
+    .xs-hidden {
+        display: none;
+    }
+}
+
+@media all and (min-width: 992px) {
+    .sm-hidden {
+        display:none;
+    }        
+    
 }
